@@ -1,6 +1,6 @@
 # bfs-prolog
 
-Breadth-first search Prolog-like tool
+Breadth-first search Prolog-like tool with succinct implementation
 
 ## Installation
 
