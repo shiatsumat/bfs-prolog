@@ -1,11 +1,19 @@
 # bfs-prolog
 
-Breadth-first search Prolog-like tool with succinct implementation
+Breadth-first search Prolog-like tool with succinct implementation.
+
+With the power of breadth-first search,
+every solution is reachable within a finite step
+even when there are infinitely many solutions,
+unlike original Prolog using depth-first search.
+
+Technically, breadth-first search is implemented
+with lazy evalutation in OCaml.
 
 ## Installation
 
 Type `make` or `make bfs-prolog`.
-You need ocaml to compile from the source code.
+You need OCaml to compile from the source code.
 
 ## Usage
 
@@ -16,10 +24,6 @@ You need ocaml to compile from the source code.
 * `expression??` – Inquiry for all solutions.
   If you want to stop enumeration of solutions, press Ctrl+C.
 * `@` - Exit.
-
-The order of solutions may seem rather random,
-but behind this is a simple algorithm of enumerating all solutions
-by breadth-first search.
 
 ### Propositions
 
